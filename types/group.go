@@ -43,6 +43,7 @@ type GroupInfo struct {
 	Participants         []GroupParticipant
 
 	MemberAddMode GroupMemberAddMode
+	Size          int
 }
 
 type GroupMembershipApprovalMode struct {
